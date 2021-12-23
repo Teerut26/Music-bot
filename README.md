@@ -15,8 +15,8 @@ Open the configuration file located in the main folder `config.js`.
 ```js
 module.exports = {
     app: {
-        px: 'XXX',
-        token: 'XXX',
+        px: process.env.PREFIX,
+        token: process.env.TOKEN,
         playing: 'by Zerio ❤️'
     },
 
