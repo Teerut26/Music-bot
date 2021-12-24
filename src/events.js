@@ -8,6 +8,7 @@ player.on('connectionError', (queue, error) => {
 
 player.on('trackStart', (queue, track) => {
     if (!client.config.opt.loopMessage && queue.repeatMode !== 0) return;
+    console.log(track);
     queue.metadata.send(`Started playing ${track.title} in **${queue.connection.channel.name}** 🎧`);
 });
 
