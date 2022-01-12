@@ -37,6 +37,14 @@ module.exports = {
 };
 ```
 
+`.env`
+```env
+TOKEN=
+PREFIX=>
+PORT=3000
+```
+
+
 Basic configuration
 
 - `app/px`, the prefix that will be set to use the bot
