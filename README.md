@@ -8,7 +8,7 @@ If you need help with this project, to get support faster you can join the help 
 
 *If you don't have any development knowledge, it is recommended to join the Discord support server to get help.*
 
-### ⚡ ScreenShot
+### ⚡ Screenshot
 
 ![Alt text](/screenshot/01.png?raw=true "01")
 
